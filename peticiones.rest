@@ -1,0 +1,39 @@
+@host = http://localhost:3000
+
+### Students
+
+###
+GET {{host}}/api/students
+
+### Get student by id
+###
+GET {{host}}/api/students/1
+
+### Create student
+###
+POST {{host}}/api/students  
+Content-Type: application/json
+
+{
+    "name": "Pepe",
+    "age": 20,
+    "email": "john@example.com",
+    "phone": "1234567890",
+    "address": "123 Main St"
+}
+
+### Update student
+###
+PUT {{host}}/api/students/6720e6c4b03647408e2311bf
+Content-Type: application/json
+
+{
+    "name": "Juan",
+    "age": 21
+}
+
+### Delete student
+###
+DELETE {{host}}/api/students/6720e5cbb03647408e2311b6
+
+
