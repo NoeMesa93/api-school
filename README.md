@@ -93,7 +93,3 @@ npm run dev
 Feel free to submit issues and pull requests to improve the project. For major
 changes, please open an issue first to discuss what you would like to change.
 
-### License
-
-This project is licensed under the ISC License - see the LICENSE file for
-details.
